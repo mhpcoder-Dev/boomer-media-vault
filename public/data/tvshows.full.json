@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "generated_at": "2024-01-15T10:30:00Z",
+  "items": [
+    {
+      "slug": "the-twilight-zone-s01e01",
+      "category": "tv",
+      "title": "The Twilight Zone - Where Is Everybody?",
+      "description": "The first episode of the iconic anthology series. A man wakes up in an empty town with no memory of how he got there. A masterclass in suspense and psychological horror.",
+      "years_aired": "1959",
+      "country": "USA",
+      "runtime_minutes": 25,
+      "work_type": "TV Episode",
+      "sources": {
+        "video_primary": "https://archive.org/details/TheTwilightZone-WhereIsEverybody",
+        "poster_image": "https://archive.org/download/TheTwilightZone-WhereIsEverybody/TheTwilightZone-WhereIsEverybody.thumbs/twilight_zone_s01e01_000001.jpg"
+      },
+      "license": {
+        "broadcast_pd": true,
+        "license_notes": "Copyright lapsed on original broadcast"
+      },
+      "tags": ["Sci-Fi", "Mystery", "Anthology", "1950s", "Black and White"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-12",
+        "renewal_found": false,
+        "pd_reason": "Broadcast rights expired"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:30:00Z"
+      }
+    },
+    {
+      "slug": "dragnet-1951-pilot",
+      "category": "tv",
+      "title": "Dragnet - The Human Bomb",
+      "description": "Follow Sergeant Joe Friday as he investigates crimes in Los Angeles. This police procedural set the standard for realistic crime dramas.",
+      "years_aired": "1951",
+      "country": "USA",
+      "runtime_minutes": 30,
+      "work_type": "TV Episode",
+      "sources": {
+        "video_primary": "https://archive.org/details/Dragnet_The_Human_Bomb",
+        "poster_image": "https://archive.org/download/Dragnet_The_Human_Bomb/Dragnet_The_Human_Bomb.thumbs/dragnet_1951_000001.jpg"
+      },
+      "license": {
+        "broadcast_pd": true,
+        "license_notes": "Pre-1964 broadcast without renewal"
+      },
+      "tags": ["Crime", "Drama", "Police", "1950s", "Black and White"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-11",
+        "renewal_found": false,
+        "pd_reason": "Copyright not renewed"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:35:00Z"
+      }
+    },
+    {
+      "slug": "the-adventures-of-superman-s01e01",
+      "category": "tv",
+      "title": "Adventures of Superman - Superman on Earth",
+      "description": "The origin story of Superman in the classic TV series starring George Reeves. Watch as the Man of Steel begins his fight for truth and justice.",
+      "years_aired": "1952",
+      "country": "USA",
+      "runtime_minutes": 26,
+      "work_type": "TV Episode",
+      "sources": {
+        "video_primary": "https://archive.org/details/AdventuresOfSuperman_Superman_On_Earth",
+        "poster_image": "https://archive.org/download/AdventuresOfSuperman_Superman_On_Earth/AdventuresOfSuperman_Superman_On_Earth.thumbs/superman_s01e01_000001.jpg"
+      },
+      "license": {
+        "broadcast_pd": true,
+        "license_notes": "Copyright issues; public domain status"
+      },
+      "tags": ["Action", "Superhero", "Adventure", "1950s", "Black and White"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-10",
+        "renewal_found": false,
+        "pd_reason": "Disputed copyright; public domain"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:40:00Z"
+      }
+    },
+    {
+      "slug": "popeye-the-sailor-1960",
+      "category": "tv",
+      "title": "Popeye the Sailor - Barbecue for Two",
+      "description": "Classic animated adventures of Popeye, Olive Oyl, and Bluto. Featuring the spinach-eating sailor's legendary strength and humor.",
+      "years_aired": "1960",
+      "country": "USA",
+      "runtime_minutes": 7,
+      "work_type": "Animated Short",
+      "sources": {
+        "video_primary": "https://archive.org/details/PopeyeTheSailor_BarbecueForTwo",
+        "poster_image": "https://archive.org/download/PopeyeTheSailor_BarbecueForTwo/PopeyeTheSailor_BarbecueForTwo.thumbs/popeye_1960_000001.jpg"
+      },
+      "license": {
+        "broadcast_pd": true,
+        "license_notes": "Selected Popeye cartoons in public domain"
+      },
+      "tags": ["Animation", "Comedy", "Kids", "1960s", "Cartoon"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-09",
+        "renewal_found": false,
+        "pd_reason": "Public domain cartoons"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:45:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generated_at": "2024-01-15T10:30:00Z",
+  "items": [
+    {
+      "slug": "suspense-1942-the-hitch-hiker",
+      "category": "radio",
+      "title": "Suspense - The Hitch-Hiker",
+      "description": "A terrifying tale starring Orson Welles about a man pursued by a mysterious hitchhiker across the country. One of the most acclaimed episodes of radio's golden age.",
+      "year_broadcast": 1942,
+      "country": "USA",
+      "speaker_or_host": "Orson Welles",
+      "sources": {
+        "audio_primary": "https://archive.org/details/OTRR_Suspense_Singles",
+        "poster_image": "https://archive.org/download/OTRR_Suspense_Singles/suspense_microphone.jpg",
+        "metadata_note": "From the Old Time Radio Researchers collection"
+      },
+      "license": {
+        "recording_pd": true,
+        "license_notes": "Pre-1972 sound recording; public domain"
+      },
+      "tags": ["Horror", "Thriller", "Drama", "Orson Welles", "1940s"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-13",
+        "renewal_found": false,
+        "pd_reason": "Pre-1972 sound recording"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:50:00Z"
+      }
+    },
+    {
+      "slug": "the-shadow-1937-death-house-rescue",
+      "category": "radio",
+      "title": "The Shadow - Death House Rescue",
+      "description": "Who knows what evil lurks in the hearts of men? The Shadow knows! Classic crime-fighting radio drama featuring the mysterious vigilante.",
+      "year_broadcast": 1937,
+      "country": "USA",
+      "speaker_or_host": "Orson Welles",
+      "sources": {
+        "audio_primary": "https://archive.org/details/OTRR_Shadow_Singles",
+        "poster_image": "https://archive.org/download/OTRR_Shadow_Singles/the_shadow_radio.jpg"
+      },
+      "license": {
+        "recording_pd": true,
+        "license_notes": "Pre-1972 recording; entered public domain"
+      },
+      "tags": ["Crime", "Mystery", "Adventure", "1930s", "Pulp"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-12",
+        "renewal_found": false,
+        "pd_reason": "Old enough to be PD"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:55:00Z"
+      }
+    },
+    {
+      "slug": "the-war-of-the-worlds-1938",
+      "category": "radio",
+      "title": "The War of the Worlds",
+      "description": "The infamous 1938 Halloween broadcast that caused nationwide panic. Orson Welles' masterful adaptation of H.G. Wells' science fiction classic.",
+      "year_broadcast": 1938,
+      "country": "USA",
+      "speaker_or_host": "Orson Welles",
+      "sources": {
+        "audio_primary": "https://archive.org/details/OrsonWellesMrBruns",
+        "poster_image": "https://archive.org/download/OrsonWellesMrBruns/war_of_worlds_broadcast.jpg"
+      },
+      "license": {
+        "recording_pd": true,
+        "license_notes": "Historic broadcast; public domain"
+      },
+      "tags": ["Sci-Fi", "Drama", "Historic", "Orson Welles", "1930s"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-11",
+        "renewal_found": false,
+        "pd_reason": "Pre-1972 recording"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:00:00Z"
+      }
+    },
+    {
+      "slug": "jack-benny-program-1950",
+      "category": "radio",
+      "title": "The Jack Benny Program - Christmas Shopping",
+      "description": "Classic comedy radio featuring Jack Benny's legendary humor and his famous violin playing. A holiday special filled with laughs.",
+      "year_broadcast": 1950,
+      "country": "USA",
+      "speaker_or_host": "Jack Benny",
+      "sources": {
+        "audio_primary": "https://archive.org/details/OTRR_Jack_Benny_Program_Singles",
+        "poster_image": "https://archive.org/download/OTRR_Jack_Benny_Program_Singles/jack_benny_radio.jpg"
+      },
+      "license": {
+        "recording_pd": true,
+        "license_notes": "Pre-1972 broadcast"
+      },
+      "tags": ["Comedy", "Variety", "Holiday", "1950s", "Classic"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-10",
+        "renewal_found": false,
+        "pd_reason": "Sound recording before 1972"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:05:00Z"
+      }
+    }
+  ]
+}
