@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# BoomerPlus - Classic Public Domain Media Streaming
 
-## Project info
+A fast, accessible streaming catalog showcasing public-domain media from the baby-boomer era.
 
-**URL**: https://lovable.dev/projects/85fb2612-5679-4af7-9fc1-443bc88faa84
+## Features
 
-## How can I edit this code?
+- 📺 Stream classic movies, TV shows, radio programs, and concerts
+- 🎨 Retro-inspired design with modern UX
+- 🔍 Global search and category filtering
+- 📱 Fully responsive and accessible
+- 🎯 Internet Archive integration with auto-embedding
+- 🔖 SEO-optimized with schema.org markup
+- 💬 Comment system integration ready
+- 📊 Ad placement support
 
-There are several ways of editing your application.
+## Data Structure
 
-**Use Lovable**
+Place JSON data files in `./data/`:
+- `movies.full.json`
+- `tvshows.full.json`
+- `radioshows.full.json`
+- `concerts.full.json`
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85fb2612-5679-4af7-9fc1-443bc88faa84) and start prompting.
+Future support for:
+- `commercials.full.json`
+- `images.full.json`
 
-Changes made via Lovable will be committed automatically to this repo.
+Each JSON follows this schema:
+```json
+{
+  "version": 1,
+  "generated_at": "ISO8601 | null",
+  "items": [...]
+}
+```
 
-**Use your preferred IDE**
+## Configuration
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Ad Integration
+Update ad placeholders in `Layout.tsx` and page components:
+- Leaderboard: Top of page (728x90)
+- Sidebar: Desktop right column (300x600)
+- In-content: Below media player
+- Footer: Above footer links
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To enable AdSense:
+1. Add your AdSense client ID and slot IDs
+2. Replace placeholder divs with actual ad code
+3. Ensure proper noscript fallbacks
 
-Follow these steps:
+### Comment System
+The site includes placeholder for Giscus comments. To enable:
+1. Set up Giscus on your GitHub repo
+2. Update the comment placeholder in `ItemPage.tsx`
+3. Add Giscus configuration
+
+### Site Settings
+Key configuration variables to customize:
+- Brand name and logo (in `Layout.tsx`)
+- Primary/secondary colors (in `index.css`)
+- Data directory path (default: `./data`)
+- AdSense IDs
+- Comment system on/off
+
+## Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+```
 
-**Use GitHub Codespaces**
+The site is optimized for static hosting. All data is loaded client-side from JSON files in the `/data` directory.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## SEO & Performance
 
-## What technologies are used for this project?
+- Semantic HTML with proper heading hierarchy
+- Meta tags and OpenGraph/Twitter cards
+- Schema.org structured data for media items
+- Image lazy loading
+- Responsive design
+- Core Web Vitals optimized
 
-This project is built with:
+## Public Domain Compliance
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+All media items include:
+- PD audit information
+- License status flags
+- Verification notes
+- Clear attribution to Internet Archive sources
 
-## How can I deploy this project?
+## Browser Support
 
-Simply open [Lovable](https://lovable.dev/projects/85fb2612-5679-4af7-9fc1-443bc88faa84) and click on Share -> Publish.
+Modern browsers with ES6+ support:
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+- Mobile browsers
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
+MIT License - See LICENSE file
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Data Sources
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+All content is sourced from Internet Archive and verified for public domain status.
