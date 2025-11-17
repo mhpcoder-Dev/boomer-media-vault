@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "generated_at": "2024-01-15T10:30:00Z",
+  "items": [
+    {
+      "slug": "night-of-the-living-dead",
+      "category": "movies",
+      "title": "Night of the Living Dead",
+      "description": "A group of people hide from bloodthirsty zombies in a farmhouse. This landmark horror film redefined the genre and became a cultural phenomenon.",
+      "year_released": 1968,
+      "country": "USA",
+      "runtime_minutes": 96,
+      "work_type": "Feature Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/night_of_the_living_dead",
+        "poster_image": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead.thumbs/Night_of_the_Living_Dead_%281968%29_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Copyright not renewed; public domain in the United States"
+      },
+      "tags": ["Horror", "Zombie", "Classic", "Black and White", "1960s"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-10",
+        "renewal_found": false,
+        "pd_reason": "Copyright not renewed within required timeframe"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:00:00Z"
+      }
+    },
+    {
+      "slug": "charade-1953",
+      "category": "movies",
+      "title": "Charade",
+      "description": "A short musical film featuring James Dean in one of his earliest roles. A fascinating glimpse into the early career of an icon.",
+      "year_released": 1953,
+      "country": "USA",
+      "runtime_minutes": 8,
+      "work_type": "Short Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/Charade1953",
+        "poster_image": "https://archive.org/download/Charade1953/Charade1953.thumbs/Charade_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Pre-1964 work without copyright renewal"
+      },
+      "tags": ["Musical", "Short Film", "James Dean", "1950s", "Drama"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-10",
+        "renewal_found": false,
+        "pd_reason": "Published before 1964 without renewal"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:05:00Z"
+      }
+    },
+    {
+      "slug": "his-girl-friday",
+      "category": "movies",
+      "title": "His Girl Friday",
+      "description": "A newspaper editor tries to prevent his ex-wife from remarrying by getting her involved in covering a breaking story. Fast-paced screwball comedy at its finest.",
+      "year_released": 1940,
+      "country": "USA",
+      "runtime_minutes": 92,
+      "work_type": "Feature Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/HisGirlFriday",
+        "poster_image": "https://archive.org/download/HisGirlFriday/HisGirlFriday.thumbs/His_Girl_Friday_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Copyright not renewed; entered public domain"
+      },
+      "tags": ["Comedy", "Romance", "Screwball", "Black and White", "1940s"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-08",
+        "renewal_found": false,
+        "pd_reason": "Copyright lapsed"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:10:00Z"
+      }
+    },
+    {
+      "slug": "the-little-shop-of-horrors",
+      "category": "movies",
+      "title": "The Little Shop of Horrors",
+      "description": "A clumsy florist discovers a plant that feeds on human blood. Dark comedy horror that became a cult classic and inspired a famous musical.",
+      "year_released": 1960,
+      "country": "USA",
+      "runtime_minutes": 72,
+      "work_type": "Feature Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/little_shop_of_horrors_1960",
+        "poster_image": "https://archive.org/download/little_shop_of_horrors_1960/little_shop_of_horrors_1960.thumbs/TheLittleShopofHorrors_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Public domain due to copyright issues"
+      },
+      "tags": ["Horror", "Comedy", "Cult Classic", "1960s", "Black and White"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-09",
+        "renewal_found": false,
+        "pd_reason": "No valid copyright notice"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:15:00Z"
+      }
+    },
+    {
+      "slug": "plan-9-from-outer-space",
+      "category": "movies",
+      "title": "Plan 9 from Outer Space",
+      "description": "Aliens resurrect the dead to stop humanity from creating a doomsday weapon. Often called the worst film ever made, it's become a beloved cult phenomenon.",
+      "year_released": 1959,
+      "country": "USA",
+      "runtime_minutes": 79,
+      "work_type": "Feature Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/Plan9FromOuterSpace",
+        "poster_image": "https://archive.org/download/Plan9FromOuterSpace/Plan9FromOuterSpace.thumbs/Plan_9_From_Outer_Space_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Copyright not renewed"
+      },
+      "tags": ["Sci-Fi", "Horror", "Cult Classic", "1950s", "B-Movie"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-07",
+        "renewal_found": false,
+        "pd_reason": "Copyright expired"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:20:00Z"
+      }
+    },
+    {
+      "slug": "reefer-madness",
+      "category": "movies",
+      "title": "Reefer Madness",
+      "description": "An anti-drug propaganda film about the supposed dangers of marijuana. Unintentionally hilarious, it became a counterculture favorite.",
+      "year_released": 1936,
+      "country": "USA",
+      "runtime_minutes": 66,
+      "work_type": "Feature Film",
+      "sources": {
+        "video_primary": "https://archive.org/details/ReeferMadness",
+        "poster_image": "https://archive.org/download/ReeferMadness/ReeferMadness.thumbs/Reefer_Madness_000001.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Never properly copyrighted"
+      },
+      "tags": ["Drama", "Propaganda", "Cult Classic", "1930s", "Black and White"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-06",
+        "renewal_found": false,
+        "pd_reason": "No copyright filed"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T09:25:00Z"
+      }
+    }
+  ]
+}

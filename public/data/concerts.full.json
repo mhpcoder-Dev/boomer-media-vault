@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "generated_at": "2024-01-15T10:30:00Z",
+  "items": [
+    {
+      "slug": "beethoven-symphony-no-9",
+      "category": "concerts",
+      "title": "Beethoven - Symphony No. 9",
+      "description": "The triumphant finale of Beethoven's symphonic legacy, featuring the iconic 'Ode to Joy.' A monumental work celebrating universal brotherhood.",
+      "composer_or_artist": "Ludwig van Beethoven",
+      "year_composed": 1824,
+      "catalog_number": "Op. 125",
+      "instrumentation": ["Orchestra", "Choir", "Soloists"],
+      "sources": {
+        "audio_primary": "https://archive.org/details/beethoven_symphony_9",
+        "poster_image": "https://archive.org/download/beethoven_symphony_9/beethoven_portrait.jpg",
+        "metadata_note": "Public domain recording from archive"
+      },
+      "license": {
+        "work_pd": true,
+        "recording_pd": true,
+        "license_notes": "Composition expired 1899; recording pre-1972"
+      },
+      "tags": ["Classical", "Symphony", "Choral", "Romantic Era", "Beethoven"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-14",
+        "renewal_found": false,
+        "pd_reason": "Pre-1899 composition; old recording"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:10:00Z"
+      }
+    },
+    {
+      "slug": "mozart-requiem-in-d-minor",
+      "category": "concerts",
+      "title": "Mozart - Requiem in D minor",
+      "description": "Mozart's final masterpiece, left unfinished at his death. A profound and moving mass for the dead, completed by his student Süssmayr.",
+      "composer_or_artist": "Wolfgang Amadeus Mozart",
+      "year_composed": 1791,
+      "catalog_number": "K. 626",
+      "instrumentation": ["Orchestra", "Choir", "Soloists"],
+      "sources": {
+        "audio_primary": "https://archive.org/details/mozart_requiem",
+        "poster_image": "https://archive.org/download/mozart_requiem/mozart_portrait.jpg"
+      },
+      "license": {
+        "work_pd": true,
+        "recording_pd": true,
+        "license_notes": "Pre-1899 composition; public domain recording"
+      },
+      "tags": ["Classical", "Requiem", "Choral", "Sacred", "Mozart"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-13",
+        "renewal_found": false,
+        "pd_reason": "18th century work; old recording"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:15:00Z"
+      }
+    },
+    {
+      "slug": "vivaldi-four-seasons",
+      "category": "concerts",
+      "title": "Vivaldi - The Four Seasons",
+      "description": "Four violin concertos representing spring, summer, autumn, and winter. One of the most popular works in the classical repertoire.",
+      "composer_or_artist": "Antonio Vivaldi",
+      "year_composed": 1725,
+      "catalog_number": "Op. 8",
+      "instrumentation": ["Violin", "String Orchestra"],
+      "sources": {
+        "audio_primary": "https://archive.org/details/vivaldi_four_seasons",
+        "poster_image": "https://archive.org/download/vivaldi_four_seasons/vivaldi_portrait.jpg"
+      },
+      "license": {
+        "work_pd": true,
+        "recording_pd": true,
+        "license_notes": "Baroque era composition; historical recording"
+      },
+      "tags": ["Classical", "Baroque", "Violin Concerto", "Vivaldi", "Seasonal"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-12",
+        "renewal_found": false,
+        "pd_reason": "18th century composition"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:20:00Z"
+      }
+    },
+    {
+      "slug": "bach-brandenburg-concertos",
+      "category": "concerts",
+      "title": "Bach - Brandenburg Concerto No. 3",
+      "description": "A joyful and energetic baroque masterpiece showcasing Bach's brilliant contrapuntal writing and orchestral color.",
+      "composer_or_artist": "Johann Sebastian Bach",
+      "year_composed": 1721,
+      "catalog_number": "BWV 1048",
+      "instrumentation": ["String Orchestra", "Continuo"],
+      "sources": {
+        "audio_primary": "https://archive.org/details/bach_brandenburg_3",
+        "poster_image": "https://archive.org/download/bach_brandenburg_3/bach_portrait.jpg"
+      },
+      "license": {
+        "work_pd": true,
+        "recording_pd": true,
+        "license_notes": "Baroque composition; public domain recording"
+      },
+      "tags": ["Classical", "Baroque", "Concerto", "Bach", "String Orchestra"],
+      "pd_audit": {
+        "copyright_search_date": "2024-01-11",
+        "renewal_found": false,
+        "pd_reason": "18th century work"
+      },
+      "ingestion": {
+        "fetched_at": "2024-01-15T10:25:00Z"
+      }
+    }
+  ]
+}
