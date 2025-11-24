@@ -37,21 +37,6 @@ export function MediaPlayer({ sources, title }: MediaPlayerProps) {
             title={title}
           />
         </div>
-        <div className="flex gap-2">
-          <Button variant="outline" size="sm" asChild>
-            <a href={primarySource} target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              Open on Internet Archive
-            </a>
-          </Button>
-          {backupSource && (
-            <Button variant="outline" size="sm" asChild>
-              <a href={backupSource} target="_blank" rel="noopener noreferrer">
-                Backup Source
-              </a>
-            </Button>
-          )}
-        </div>
       </div>
     );
   }
@@ -100,13 +85,6 @@ export function MediaPlayer({ sources, title }: MediaPlayerProps) {
           >
             Your browser does not support the audio tag.
           </audio>
-        )}
-        {backupSource && (
-          <Button variant="outline" size="sm" asChild>
-            <a href={backupSource} target="_blank" rel="noopener noreferrer">
-              Backup Source
-            </a>
-          </Button>
         )}
       </div>
     );
