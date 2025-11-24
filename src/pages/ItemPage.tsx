@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ExternalLink, Share2, ChevronDown, ShieldCheck } from 'lucide-react';
+import { Share2, ChevronDown } from 'lucide-react';
 import { toast } from 'sonner';
 
 export default function ItemPage() {
@@ -75,9 +75,6 @@ export default function ItemPage() {
   const runtime = 'runtime_minutes' in item ? item.runtime_minutes : null;
   const country = 'country' in item ? item.country : null;
 
-  const pdFlags = Object.entries(item.license)
-    .filter(([key, value]) => key.endsWith('_pd') && value === true)
-    .map(([key]) => key);
 
   return (
     <Layout>
@@ -119,20 +116,6 @@ export default function ItemPage() {
               </Collapsible>
             )}
 
-            {/* PD Audit */}
-            <Collapsible>
-              <CollapsibleTrigger asChild>
-                <Button variant="outline" className="w-full justify-between">
-                  Public Domain Audit
-                  <ChevronDown className="w-4 h-4" />
-                </Button>
-              </CollapsibleTrigger>
-              <CollapsibleContent className="mt-2 p-4 bg-muted/50 rounded-lg overflow-auto">
-                <pre className="text-xs">
-                  {JSON.stringify(item.pd_audit, null, 2)}
-                </pre>
-              </CollapsibleContent>
-            </Collapsible>
 
             {/* Comments Placeholder */}
             <Card>
@@ -207,32 +190,6 @@ export default function ItemPage() {
               </CardContent>
             </Card>
 
-            {/* License */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <ShieldCheck className="w-5 h-5 text-primary" />
-                  License
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                {pdFlags.length > 0 && (
-                  <div>
-                    <p className="text-sm font-semibold mb-1">Public Domain:</p>
-                    <div className="flex flex-wrap gap-1">
-                      {pdFlags.map(flag => (
-                        <Badge key={flag} variant="secondary">
-                          {flag.replace('_pd', '').replace('_', ' ')}
-                        </Badge>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                {item.license.license_notes && (
-                  <p className="text-xs text-muted-foreground">{item.license.license_notes}</p>
-                )}
-              </CardContent>
-            </Card>
 
             {/* Tags */}
             {item.tags.length > 0 && (
@@ -260,19 +217,6 @@ export default function ItemPage() {
               Share
             </Button>
 
-            {/* External Links */}
-            {(item.sources.video_primary || item.sources.audio_primary) && (
-              <Button variant="secondary" asChild className="w-full gap-2">
-                <a
-                  href={item.sources.video_primary || item.sources.audio_primary}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Open on Internet Archive
-                </a>
-              </Button>
-            )}
 
             {/* Ad Placeholder: Sidebar */}
             <div className="ad-sidebar bg-muted/50 border border-border rounded p-4 sticky top-4">
