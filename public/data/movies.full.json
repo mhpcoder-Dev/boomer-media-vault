@@ -13,7 +13,7 @@
       "work_type": "Feature Film",
       "sources": {
         "video_primary": "https://archive.org/details/night_of_the_living_dead",
-        "poster_image": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead.thumbs/Night_of_the_Living_Dead_%281968%29_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Night_of_the_Living_Dead_affiche.jpg/800px-Night_of_the_Living_Dead_affiche.jpg"
       },
       "license": {
         "film_pd": true,
@@ -40,7 +40,7 @@
       "work_type": "Short Film",
       "sources": {
         "video_primary": "https://archive.org/details/Charade1953",
-        "poster_image": "https://archive.org/download/Charade1953/Charade1953.thumbs/Charade_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/James_Dean_in_Rebel_Without_a_Cause_trailer.jpg/800px-James_Dean_in_Rebel_Without_a_Cause_trailer.jpg"
       },
       "license": {
         "film_pd": true,
@@ -67,7 +67,7 @@
       "work_type": "Feature Film",
       "sources": {
         "video_primary": "https://archive.org/details/HisGirlFriday",
-        "poster_image": "https://archive.org/download/HisGirlFriday/HisGirlFriday.thumbs/His_Girl_Friday_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/His_Girl_Friday_%281940_poster%29.jpg/800px-His_Girl_Friday_%281940_poster%29.jpg"
       },
       "license": {
         "film_pd": true,
@@ -94,7 +94,7 @@
       "work_type": "Feature Film",
       "sources": {
         "video_primary": "https://archive.org/details/little_shop_of_horrors_1960",
-        "poster_image": "https://archive.org/download/little_shop_of_horrors_1960/little_shop_of_horrors_1960.thumbs/TheLittleShopofHorrors_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Little_Shop_of_Horrors_1960_Poster.jpg/800px-Little_Shop_of_Horrors_1960_Poster.jpg"
       },
       "license": {
         "film_pd": true,
@@ -121,7 +121,7 @@
       "work_type": "Feature Film",
       "sources": {
         "video_primary": "https://archive.org/details/Plan9FromOuterSpace",
-        "poster_image": "https://archive.org/download/Plan9FromOuterSpace/Plan9FromOuterSpace.thumbs/Plan_9_From_Outer_Space_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Plan_nine_from_outer_space.jpg/800px-Plan_nine_from_outer_space.jpg"
       },
       "license": {
         "film_pd": true,
@@ -148,7 +148,7 @@
       "work_type": "Feature Film",
       "sources": {
         "video_primary": "https://archive.org/details/ReeferMadness",
-        "poster_image": "https://archive.org/download/ReeferMadness/ReeferMadness.thumbs/Reefer_Madness_000001.jpg"
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Reefer_Madness_poster.jpg/800px-Reefer_Madness_poster.jpg"
       },
       "license": {
         "film_pd": true,
