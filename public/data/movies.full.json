@@ -1,167 +1,325 @@
 {
   "version": 1,
-  "generated_at": "2024-01-15T10:30:00Z",
+  "generated_at": "2025-11-16T00:45:00Z",
   "items": [
     {
-      "slug": "night-of-the-living-dead",
+      "slug": "cabinet-of-dr-caligari-1920",
       "category": "movies",
-      "title": "Night of the Living Dead",
-      "description": "A group of people hide from bloodthirsty zombies in a farmhouse. This landmark horror film redefined the genre and became a cultural phenomenon.",
-      "year_released": 1968,
-      "country": "USA",
-      "runtime_minutes": 96,
-      "work_type": "Feature Film",
+      "work_type": "feature",
+      "title": "The Cabinet of Dr. Caligari",
+      "director": "Robert Wiene",
+      "year_released": 1920,
+      "country": "Germany",
+      "description": "Expressionist silent horror about hypnotist using a somnambulist; Weimar classic.",
       "sources": {
-        "video_primary": "https://archive.org/details/night_of_the_living_dead",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Night_of_the_Living_Dead_affiche.jpg/800px-Night_of_the_Living_Dead_affiche.jpg"
+        "video_primary": "https://ia601608.us.archive.org/1/items/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari/The_Cabinet_of_Dr._Caligari_512kb.mp4",
+        "video_backup": "https://archive.org/search?query=Cabinet+of+Dr+Caligari+1920",
+        "poster_image": "https://image.tmdb.org/t/p/w500/myK9DeIsXWGKgUTZyGXg2IfFk0W.jpg",
+        "metadata_note": "Identifier verified (public domain US)."
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Copyright not renewed; public domain in the United States"
+        "license_notes": "Released 1920; US PD due to age."
       },
-      "tags": ["Horror", "Zombie", "Classic", "Black and White", "1960s"],
+      "tags": [
+        "silent",
+        "horror",
+        "expressionism"
+      ],
+      "runtime_minutes": 75,
       "pd_audit": {
-        "copyright_search_date": "2024-01-10",
-        "renewal_found": false,
-        "pd_reason": "Copyright not renewed within required timeframe"
+        "publication_year": 1920,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:00:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
       }
     },
     {
-      "slug": "charade-1953",
+      "slug": "nosferatu-1922",
       "category": "movies",
-      "title": "Charade",
-      "description": "A short musical film featuring James Dean in one of his earliest roles. A fascinating glimpse into the early career of an icon.",
-      "year_released": 1953,
-      "country": "USA",
-      "runtime_minutes": 8,
-      "work_type": "Short Film",
+      "work_type": "feature",
+      "title": "Nosferatu",
+      "director": "F. W. Murnau",
+      "year_released": 1922,
+      "country": "Germany",
+      "description": "Unauthorized Dracula adaptation; iconic shadowy vampire imagery.",
       "sources": {
-        "video_primary": "https://archive.org/details/Charade1953",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/James_Dean_in_Rebel_Without_a_Cause_trailer.jpg/800px-James_Dean_in_Rebel_Without_a_Cause_trailer.jpg"
+        "video_primary": "https://archive.org/details/Nosferatu1922VHS",
+        "video_backup": "https://archive.org/search?query=Nosferatu+1922",
+        "poster_image": "https://image.tmdb.org/t/p/w500/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+        "metadata_note": "Multiple transfers in Archive; pick highest resolution."
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Pre-1964 work without copyright renewal"
+        "license_notes": "Underlying story contested historically; film widely treated PD."
       },
-      "tags": ["Musical", "Short Film", "James Dean", "1950s", "Drama"],
+      "tags": [
+        "silent",
+        "horror",
+        "vampire"
+      ],
+      "runtime_minutes": 94,
       "pd_audit": {
-        "copyright_search_date": "2024-01-10",
-        "renewal_found": false,
-        "pd_reason": "Published before 1964 without renewal"
+        "publication_year": 1922,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:05:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
       }
     },
     {
-      "slug": "his-girl-friday",
+      "slug": "metropolis-1927",
       "category": "movies",
-      "title": "His Girl Friday",
-      "description": "A newspaper editor tries to prevent his ex-wife from remarrying by getting her involved in covering a breaking story. Fast-paced screwball comedy at its finest.",
-      "year_released": 1940,
-      "country": "USA",
-      "runtime_minutes": 92,
-      "work_type": "Feature Film",
+      "work_type": "feature",
+      "title": "Metropolis",
+      "director": "Fritz Lang",
+      "year_released": 1927,
+      "country": "Germany",
+      "description": "Dystopian sci-fi silent film exploring class divide in futuristic city; pioneering effects.",
       "sources": {
-        "video_primary": "https://archive.org/details/HisGirlFriday",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/His_Girl_Friday_%281940_poster%29.jpg/800px-His_Girl_Friday_%281940_poster%29.jpg"
+        "video_primary": "https://archive.org/details/Metropolis1927EnglishVersion",
+        "video_backup": "https://archive.org/search?query=Metropolis+1927+Fritz+Lang",
+        "poster_image": "https://image.tmdb.org/t/p/w500/vZIJxGnjcswPCAa52jhbl01FQkV.jpg",
+        "metadata_note": "Fixed identifier typo (comparison)."
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Copyright not renewed; entered public domain"
+        "license_notes": "Original 1927 German release now PD; restorations may add copyrights."
       },
-      "tags": ["Comedy", "Romance", "Screwball", "Black and White", "1940s"],
+      "tags": [
+        "silent",
+        "sci-fi",
+        "expressionism"
+      ],
+      "runtime_minutes": 145,
       "pd_audit": {
-        "copyright_search_date": "2024-01-08",
-        "renewal_found": false,
-        "pd_reason": "Copyright lapsed"
+        "publication_year": 1927,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:10:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
       }
     },
     {
-      "slug": "the-little-shop-of-horrors",
+      "slug": "passion-of-joan-of-arc-1928",
       "category": "movies",
-      "title": "The Little Shop of Horrors",
-      "description": "A clumsy florist discovers a plant that feeds on human blood. Dark comedy horror that became a cult classic and inspired a famous musical.",
-      "year_released": 1960,
-      "country": "USA",
-      "runtime_minutes": 72,
-      "work_type": "Feature Film",
+      "work_type": "feature",
+      "title": "The Passion of Joan of Arc",
+      "director": "Carl Theodor Dreyer",
+      "year_released": 1928,
+      "country": "France",
+      "description": "Silent trial drama renowned for intense close-ups and performance.",
       "sources": {
-        "video_primary": "https://archive.org/details/little_shop_of_horrors_1960",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Little_Shop_of_Horrors_1960_Poster.jpg/800px-Little_Shop_of_Horrors_1960_Poster.jpg"
+        "video_primary": "https://archive.org/details/the-passion-of-joan-of-arc-1928",
+        "video_backup": "https://archive.org/search?query=Passion+of+Joan+of+Arc+1928",
+        "poster_image": "https://image.tmdb.org/t/p/w500/z5lgu299WJowEM9uWrWfn4OwxaV.jpg",
+        "metadata_note": "Check transfer provenance; some editions include modern score."
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Public domain due to copyright issues"
+        "license_notes": "1928 release PD; added music may carry rights."
       },
-      "tags": ["Horror", "Comedy", "Cult Classic", "1960s", "Black and White"],
+      "tags": [
+        "silent",
+        "drama",
+        "biography"
+      ],
+      "runtime_minutes": 81,
       "pd_audit": {
-        "copyright_search_date": "2024-01-09",
-        "renewal_found": false,
-        "pd_reason": "No valid copyright notice"
+        "publication_year": 1928,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:15:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
       }
     },
     {
-      "slug": "plan-9-from-outer-space",
+      "slug": "lodger-1927",
       "category": "movies",
-      "title": "Plan 9 from Outer Space",
-      "description": "Aliens resurrect the dead to stop humanity from creating a doomsday weapon. Often called the worst film ever made, it's become a beloved cult phenomenon.",
-      "year_released": 1959,
-      "country": "USA",
-      "runtime_minutes": 79,
-      "work_type": "Feature Film",
+      "work_type": "feature",
+      "title": "The Lodger: A Story of the London Fog",
+      "director": "Alfred Hitchcock",
+      "year_released": 1927,
+      "country": "UK",
+      "description": "Silent thriller; early Hitchcock suspense about suspected serial killer lodger.",
       "sources": {
-        "video_primary": "https://archive.org/details/Plan9FromOuterSpace",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Plan_nine_from_outer_space.jpg/800px-Plan_nine_from_outer_space.jpg"
+        "video_primary": "https://archive.org/details/the-lodger-a-story-of-the-london-fog-1927",
+        "video_backup": "https://archive.org/search?query=The+Lodger+1927+Hitchcock",
+        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Lodger_%281927_film_poster%29.jpg/876px-The_Lodger_%281927_film_poster%29.jpg",
+        "metadata_note": "Multiple transfers; verify best quality."
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Copyright not renewed"
+        "license_notes": "Original 1927 UK release PD; musical scores may vary."
       },
-      "tags": ["Sci-Fi", "Horror", "Cult Classic", "1950s", "B-Movie"],
+      "tags": [
+        "silent",
+        "thriller"
+      ],
+      "runtime_minutes": 90,
       "pd_audit": {
-        "copyright_search_date": "2024-01-07",
-        "renewal_found": false,
-        "pd_reason": "Copyright expired"
+        "publication_year": 1927,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:20:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
       }
     },
     {
-      "slug": "reefer-madness",
+      "slug": "sentimental-bloke-1919",
       "category": "movies",
-      "title": "Reefer Madness",
-      "description": "An anti-drug propaganda film about the supposed dangers of marijuana. Unintentionally hilarious, it became a counterculture favorite.",
-      "year_released": 1936,
-      "country": "USA",
-      "runtime_minutes": 66,
-      "work_type": "Feature Film",
+      "work_type": "feature",
+      "title": "The Sentimental Bloke",
+      "director": "Raymond Longford",
+      "year_released": 1919,
+      "country": "Australia",
+      "description": "Silent romantic comedy of reformed larrikin seeking love; based on C.J. Dennis poems.",
       "sources": {
-        "video_primary": "https://archive.org/details/ReeferMadness",
-        "poster_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Reefer_Madness_poster.jpg/800px-Reefer_Madness_poster.jpg"
+        "video_primary": "https://archive.org/details/Sentimental_bloke",
+        "video_backup": "https://archive.org/search?query=Sentimental+Bloke+1919",
+        "poster_image": "https://image.tmdb.org/t/p/w500/3ptSmwCeT66uHPsnoXDE5hDrweB.jpg"
       },
       "license": {
         "film_pd": true,
-        "license_notes": "Never properly copyrighted"
+        "license_notes": "1919 release PD."
       },
-      "tags": ["Drama", "Propaganda", "Cult Classic", "1930s", "Black and White"],
+      "tags": [
+        "silent",
+        "comedy",
+        "romance"
+      ],
+      "runtime_minutes": 106,
       "pd_audit": {
-        "copyright_search_date": "2024-01-06",
-        "renewal_found": false,
-        "pd_reason": "No copyright filed"
+        "publication_year": 1919,
+        "pre_1929": true
       },
       "ingestion": {
-        "fetched_at": "2024-01-15T09:25:00Z"
+        "fetched_at": "2025-11-16T00:45:00Z"
+      }
+    },
+    {
+      "slug": "irish-destiny-1926",
+      "category": "movies",
+      "work_type": "feature",
+      "title": "Irish Destiny",
+      "director": "George Dewhurst",
+      "year_released": 1926,
+      "country": "Ireland",
+      "description": "Silent drama during Irish War of Independence featuring real footage.",
+      "sources": {
+        "video_primary": "https://archive.org/details/youtube-VMhLzYzx76U",
+        "video_backup": "https://archive.org/search?query=Irish+Destiny+1926",
+        "poster_image": "https://image.tmdb.org/t/p/w500/vJdMmHmF9OdGHnyLuYIbO8eDDJn.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "1926 release PD."
+      },
+      "tags": [
+        "silent",
+        "drama"
+      ],
+      "runtime_minutes": 73,
+      "pd_audit": {
+        "publication_year": 1926,
+        "pre_1929": true
+      },
+      "ingestion": {
+        "fetched_at": "2025-11-16T00:45:00Z"
+      }
+    },
+    {
+      "slug": "rewis-last-stand-1925",
+      "category": "movies",
+      "work_type": "feature",
+      "title": "Rewi's Last Stand",
+      "director": "Rudall Hayward",
+      "year_released": 1925,
+      "country": "New Zealand",
+      "description": "Silent historical drama on Māori resistance in New Zealand Wars.",
+      "sources": {
+        "video_primary": "",
+        "video_backup": "https://archive.org/search?query=Rewi%27s+Last+Stand+1925",
+        "poster_image": "https://image.tmdb.org/t/p/w500/3rYmUtROxAtbYCsQgVvCasVJba.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "1925 release PD."
+      },
+      "tags": [
+        "silent",
+        "historical"
+      ],
+      "runtime_minutes": 57,
+      "pd_audit": {
+        "publication_year": 1925,
+        "pre_1929": true
+      },
+      "ingestion": {
+        "fetched_at": "2025-11-16T00:45:00Z"
+      }
+    },
+    {
+      "slug": "man-of-aran-1934",
+      "category": "movies",
+      "work_type": "feature",
+      "title": "Man of Aran",
+      "director": "Robert J. Flaherty",
+      "year_released": 1934,
+      "country": "Ireland/UK",
+      "description": "Documentary-style ethnographic film with staged elements of life on Aran Islands.",
+      "sources": {
+        "video_primary": "https://archive.org/details/manOfAran1934",
+        "video_backup": "https://archive.org/search?query=Man+of+Aran+1934",
+        "poster_image": "https://image.tmdb.org/t/p/w500/A67tl48MWZM8bxEYxJZhFGGth9A.jpg"
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "Release 1934—verify copyright status in target jurisdiction (US PD via publication? confirm)."
+      },
+      "tags": [
+        "documentary"
+      ],
+      "runtime_minutes": 76,
+      "pd_audit": {
+        "publication_year": 1934,
+        "pre_1929": false
+      },
+      "ingestion": {
+        "fetched_at": "2025-11-16T00:45:00Z"
+      }
+    },
+    {
+      "slug": "lage-dor-1930",
+      "category": "movies",
+      "work_type": "feature",
+      "title": "L'Age d'Or",
+      "director": "Luis Buñuel",
+      "year_released": 1930,
+      "country": "France",
+      "description": "Surrealist satire attacking bourgeois norms and religion; controversial avant-garde film.",
+      "sources": {
+        "video_primary": "https://archive.org/details/lage-dor",
+        "video_backup": "https://archive.org/search?query=L%27Age+d%27Or+1930",
+        "poster_image": "https://image.tmdb.org/t/p/w500/q3OH9Yk3hOE5uYEK55ASjEtsPfE.jpg",
+        "metadata_note": "Identifier normalized to lowercase."
+      },
+      "license": {
+        "film_pd": true,
+        "license_notes": "French 1930 release may be PD in US (publication >95 years); verify exact release date."
+      },
+      "tags": [
+        "surrealism",
+        "satire"
+      ],
+      "runtime_minutes": 63,
+      "pd_audit": {
+        "publication_year": 1930,
+        "pre_1929": false
+      },
+      "ingestion": {
+        "fetched_at": "2025-11-16T00:46:00Z"
       }
     }
   ]
